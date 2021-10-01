@@ -1,0 +1,16 @@
+print("Коллекция Эрмитажа насчитывает более 2,8 млн экспонатов.")
+UserYear = int(input("Количество лет, которое вы хотите затратить: "))
+Exhibitions = 2800000
+Minute = 5
+Hour = 8
+ExInYear = (Hour * (60/Minute)) * 365
+N = UserYear*ExInYear
+
+print("Вы сможете увидеть",N,"экпонатов")
+
+UserEx = int(input("Количество экспонатов, которое вы хотите увидеть: "))
+minutes = UserEx * Minute
+days = UserEx/((Hour * 60)/Minute)
+years = UserEx/ExInYear
+
+print("Вам потребуется", years, "лет", days, "дней", minutes, "минут")

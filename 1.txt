@@ -1,0 +1,16 @@
+#start
+
+UserName = input("Введите имя студента: ")
+UserSurname = input("Ввведите фамилию студента: ")
+UserYear = input("Введите год рождения студента: ")
+
+print (UserName,"_",UserSurname,"_",UserYear)
+
+buf = UserName
+UserName = UserSurname
+UserSurname = buf
+
+factor = 60 
+FinalUserYear = int(UserYear)+factor
+
+print (UserName,"_",UserSurname,"_",FinalUserYear)

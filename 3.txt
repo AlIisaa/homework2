@@ -1,0 +1,11 @@
+import math
+
+R=float(input("Введите радиус R ="))
+
+S=math.pi*(R**2)
+
+print(S)
+
+
+
+#python 3.txt
